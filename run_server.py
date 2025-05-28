@@ -1,6 +1,5 @@
-# Salvează acest fișier ca run_server.py
 from waitress import serve
-from main import app  # Importă 'app' din fișierul tău harta_app.py
+from main import app  
 
 if __name__ == '__main__':
     host = '0.0.0.0'
